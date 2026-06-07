@@ -75,11 +75,11 @@ We welcome contributions! If you:
 - Want to add content on new topics
 - Have insights to share
 
-Please visit our [GitHub Repository](https://github.com/muralidharan/ai-interview-academy)
+Please visit our [GitHub Repository](https://github.com/CodeEZ-Dev/ai-interview-academy.git)
 
 ## 📞 Contact & Support
 
-- **Issues**: Report me Muralidharan
+- **Issues**: Report me Muralidharan V
 - **Discussions**: Join our community discussions on GitHub - http://github.com/orgs/community/discussions/198290
 - **Social**: Follow for updates and new content - https://www.linkedin.com/in/muralidharanvenkadesan/
 
