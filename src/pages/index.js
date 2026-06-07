@@ -28,7 +28,7 @@ export default function Home() {
               </Link>
               <Link
                 className={styles.buttonSecondary}
-                to="https://github.com/munusami/ai-interview-academy"
+                to="https://github.com/CodeEZ-Dev/ai-interview-academy.git"
               >
                 View on GitHub
               </Link>

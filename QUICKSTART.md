@@ -178,8 +178,8 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ## 📞 Support
 
 - 📖 [Full Documentation](README.md)
-- 🐛 [Report Issues](https://github.com/munusami/ai-interview-academy/issues)
-- 💬 [Discussions](https://github.com/munusami/ai-interview-academy/discussions)
+- 🐛 [Report Issues](https://github.com/orgs/community/discussions/198290)
+- 💬 [Discussions](https://github.com/orgs/community/discussions/198290)
 - 📧 Contact via GitHub
 
 ## 🎯 Next Steps

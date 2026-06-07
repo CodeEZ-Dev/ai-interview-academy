@@ -4,7 +4,7 @@
 
 ### Project: AI Interview Academy
 
-**Location**: `/Users/munusami/Desktop/GenAIProjects/Interview_preparation/ai-interview-academy`
+**Location**: `https://github.com/CodeEZ-Dev/ai-interview-academy.git`
 
 ---
 
@@ -212,7 +212,7 @@ Run from Command Palette (Cmd+Shift+P):
 2. Enable GitHub Pages (gh-pages branch)
 3. Push to main branch
 4. GitHub Actions deploys automatically
-5. Site live at: `https://username.github.io/ai-interview-academy/`
+5. Site live at: `https://github.com/CodeEZ-Dev/ai-interview-academy.git`
 
 ### Manual Deployment
 ```bash

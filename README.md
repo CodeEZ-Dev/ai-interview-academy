@@ -355,25 +355,14 @@ Contributions are welcome! Here's how to contribute:
 
 Found an issue or have a suggestion?
 
-1. Check [existing issues](https://github.com/munusami/ai-interview-academy/issues)
-2. Create a [new issue](https://github.com/munusami/ai-interview-academy/issues/new)
-3. Provide clear description and examples
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👏 Acknowledgments
-
-- Built with [Docusaurus](https://docusaurus.io/)
-- Inspired by community learning initiatives
-- Thanks to all [contributors](https://github.com/munusami/ai-interview-academy/graphs/contributors)
+1. Check [existing issues](https://github.com/orgs/community/discussions/198290)
+2. Create a [new issue](https://github.com/orgs/community/discussions/198290
 
 ## 📞 Contact
 
-- **GitHub**: [@munusami](https://github.com/munusami)
-- **GitHub Issues**: [Report issues](https://github.com/munusami/ai-interview-academy/issues)
-- **Discussions**: [Join discussions](https://github.com/munusami/ai-interview-academy/discussions)
+- **GitHub**: [@Muralidharan]https://github.com/orgs/community/discussions/198290)
+- **GitHub Issues**: [Report issues](https://github.com/orgs/community/discussions/198290)
+- **Discussions**: [Join discussions](https://github.com/orgs/community/discussions/198290)
 
 ## 🗺️ Roadmap
 
@@ -396,11 +385,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Last Updated**: 2024
+**Last Updated**: 2026
 
 **Version**: 1.0.0
 
-**Maintained by**: [Your Name](https://github.com/munusami)
+**Maintained by**: [Muralidharan](https://github.com/orgs/community/discussions/198290)
 
 ---
 
@@ -408,6 +397,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ⭐ **If you find this helpful, please star the repository!** ⭐
 
-[GitHub](https://github.com/munusami/ai-interview-academy) • [Website](https://munusami.github.io/ai-interview-academy/) • [Report Issue](https://github.com/munusami/ai-interview-academy/issues)
+[GitHub](https://github.com/CodeEZ-Dev/ai-interview-academy.gity) • [Website](https://github.com/CodeEZ-Dev/ai-interview-academy.git) • [Report Issue](https://github.com/CodeEZ-Dev/ai-interview-academy.gits)
 
 </div>

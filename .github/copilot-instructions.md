@@ -160,7 +160,7 @@ npm run build
 
 - Check [README.md](README.md)
 - See [CONTRIBUTING.md](CONTRIBUTING.md)
-- Visit [GitHub Issues](https://github.com/munusami/ai-interview-academy/issues)
+- Visit [GitHub Issues](https://github.com/CodeEZ-Dev/ai-interview-academy.git)
 
 ---
 
