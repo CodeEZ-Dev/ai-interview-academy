@@ -2,9 +2,9 @@
 
 > Master Generative AI, RAG, Agentic AI, MCP, LLMOps, Cloud AI, and Enterprise Architecture Interviews
 
-[![Deploy to GitHub Pages](https://github.com/munusami/ai-interview-academy/actions/workflows/deploy.yml/badge.svg)](https://github.com/munusami/ai-interview-academy/actions/workflows/deploy.yml)
-[![GitHub License](https://img.shields.io/github/license/munusami/ai-interview-academy)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/munusami/ai-interview-academy)](https://github.com/munusami/ai-interview-academy)
+[![Deploy to GitHub Pages](https://github.com/CodeEZ-Dev/ai-interview-academy/actions/workflows/deploy.yml/badge.svg)](https://github.com/CodeEZ-Dev/ai-interview-academy/actions/workflows/deploy.yml)
+[![GitHub License](https://img.shields.io/github/license/CodeEZ-Dev/ai-interview-academy)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/CodeEZ-Dev/ai-interview-academy)](https://github.com/CodeEZ-Dev/ai-interview-academy)
 
 ## 📚 About
 
@@ -33,7 +33,7 @@ AI Interview Academy is a comprehensive, open-source documentation website dedic
 
 ```bash
 # Clone the repository
-git clone https://github.com/munusami/ai-interview-academy.git
+git clone https://github.com/CodeEZ-Dev/ai-interview-academy.git
 cd ai-interview-academy
 
 # Install dependencies
@@ -191,7 +191,18 @@ The site automatically deploys to GitHub Pages on every push to `main`:
 
 1. GitHub Actions runs tests and builds the site
 2. Artifacts are deployed to `gh-pages` branch
-3. Site is live at: `https://munusami.github.io/ai-interview-academy/`
+3. Site is live at: **[https://codeez-dev.github.io/ai-interview-academy/](https://codeez-dev.github.io/ai-interview-academy/)**
+
+### Deployment Configuration
+
+This project is configured for GitHub Pages deployment:
+
+**Current Settings:**
+- **Organization**: CodeEZ-Dev
+- **Repository**: ai-interview-academy
+- **URL**: https://codeez-dev.github.io
+- **Base URL**: /ai-interview-academy/
+- **Deployment Branch**: gh-pages
 
 ### Manual Deployment
 
@@ -203,13 +214,56 @@ npm run build
 npm run deploy
 ```
 
+### GitHub Settings Configuration
+
+To enable automatic deployment:
+
+1. Go to repository **Settings → Pages**
+2. Under "Build and deployment":
+   - Select **Deploy from a branch**
+   - Choose branch: **gh-pages**
+   - Select folder: **/ (root)**
+3. Save and wait for initial deployment
+
+### Troubleshooting Deployment Failures
+
+**Issue: Site not accessible at correct URL**
+- Verify `url` and `baseUrl` in `docusaurus.config.js`
+- Check that GitHub Pages branch is set to `gh-pages`
+- Clear browser cache (Cmd+Shift+R)
+
+**Issue: Images or assets not loading**
+- Ensure all image paths use relative URLs without leading slash
+- Check that static assets are in `static/` directory
+- Verify `baseUrl` is correctly set to `/ai-interview-academy/`
+
+**Issue: Search not working**
+- Clear `.docusaurus` folder: `npm run clear`
+- Rebuild: `npm run build`
+- Re-deploy: `npm run deploy`
+
+**Issue: Mermaid diagrams not rendering**
+- Ensure `mermaid` package is installed
+- Check that markdown uses proper Mermaid syntax
+- Rebuild and redeploy
+
+**Workflow Status**: [![Deploy to GitHub Pages](https://github.com/CodeEZ-Dev/ai-interview-academy/actions/workflows/deploy.yml/badge.svg)](https://github.com/CodeEZ-Dev/ai-interview-academy/actions/workflows/deploy.yml)
+
 ## 📋 Deployment Checklist
 
-- [ ] Update `docusaurus.config.js` with your GitHub username and repo
-- [ ] Update `organizationName` and `projectName`
-- [ ] Update `baseUrl` if repo name differs
+- [x] Update `docusaurus.config.js` with CodeEZ-Dev organization
+- [x] Update `organizationName` to "CodeEZ-Dev"
+- [x] Update `projectName` to "ai-interview-academy"
+- [x] Update `url` to "https://codeez-dev.github.io"
+- [x] Update `baseUrl` to "/ai-interview-academy/"
+- [x] Configure GitHub Actions workflow for automatic deployment
+- [x] Set deployment branch to `gh-pages`
 - [ ] Enable GitHub Pages in repository settings
-- [ ] Set deployment branch to `gh-pages`
+- [ ] Verify site is live at https://codeez-dev.github.io/ai-interview-academy/
+- [ ] Test that all images render correctly
+- [ ] Test that Mermaid diagrams render correctly
+- [ ] Test that sidebar navigation works
+- [ ] Test that search functionality works
 - [ ] Add Google Analytics ID (optional)
 
 ## 🤝 Contributing

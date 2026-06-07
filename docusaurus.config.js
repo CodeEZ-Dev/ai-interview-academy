@@ -13,13 +13,13 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://munusami.github.io',
+  url: 'https://codeez-dev.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/ai-interview-academy/',
 
   // GitHub pages deployment config.
-  organizationName: 'munusami',
+  organizationName: 'CodeEZ-Dev',
   projectName: 'ai-interview-academy',
   deploymentBranch: 'gh-pages',
 
@@ -42,7 +42,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl:
-            'https://github.com/munusami/ai-interview-academy/tree/main/',
+            'https://github.com/CodeEZ-Dev/ai-interview-academy/tree/main/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           remarkPlugins: [
@@ -55,7 +55,7 @@ const config = {
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/munusami/ai-interview-academy/tree/main/',
+            'https://github.com/CodeEZ-Dev/ai-interview-academy/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -142,7 +142,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/munusami/ai-interview-academy',
+            href: 'https://github.com/CodeEZ-Dev/ai-interview-academy',
             label: 'GitHub',
             position: 'right',
           },
@@ -198,7 +198,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/munusami/ai-interview-academy',
+                href: 'https://github.com/CodeEZ-Dev/ai-interview-academy',
               },
             ],
           },
