@@ -1,0 +1,19 @@
+import styles from './styles.module.css';
+
+export const Hero = styles.hero;
+export const HeroContent = styles.heroContent;
+export const HeroTitle = styles.heroTitle;
+export const HeroSubtitle = styles.heroSubtitle;
+export const Buttons = styles.buttons;
+export const ButtonPrimary = styles.buttonPrimary;
+export const ButtonSecondary = styles.buttonSecondary;
+export const Features = styles.features;
+export const Container = styles.container;
+export const Grid = styles.grid;
+export const Card = styles.card;
+export const HowWorks = styles.howWorks;
+export const Steps = styles.steps;
+export const Step = styles.step;
+export const StepNumber = styles.stepNumber;
+export const CTA = styles.cta;
+export const ButtonLarge = styles.buttonLarge;

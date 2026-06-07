@@ -1,0 +1,61 @@
+{
+  "name": "ai-interview-academy",
+  "version": "1.0.0",
+  "description": "AI Interview Academy - Master Generative AI, RAG, Agentic AI, MCP, LLMOps, Cloud AI, and Enterprise Architecture",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^3.1.1",
+    "@docusaurus/preset-classic": "^3.1.1",
+    "@docusaurus/plugin-content-docs": "^3.1.1",
+    "@docusaurus/plugin-content-blog": "^3.1.1",
+    "@docusaurus/plugin-content-pages": "^3.1.1",
+    "@docusaurus/plugin-debug": "^3.1.1",
+    "@docusaurus/plugin-google-analytics": "^3.1.1",
+    "@docusaurus/plugin-google-gtag": "^3.1.1",
+    "@docusaurus/plugin-sitemap": "^3.1.1",
+    "@docusaurus/theme-classic": "^3.1.1",
+    "@docusaurus/theme-live-codeblock": "^3.1.1",
+    "@docusaurus/theme-search-algolia": "^3.1.1",
+    "@mdx-js/react": "^3.0.0",
+    "clsx": "^2.1.0",
+    "prism-react-renderer": "^2.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remark-math": "^6.0.0",
+    "rehype-katex": "^7.0.0",
+    "mermaid": "^10.6.1",
+    "@mermaid-js/mermaid-cli": "^10.6.1"
+  },
+  "devDependencies": {
+    "@docusaurus/module-ideal-image": "^3.1.1",
+    "@docusaurus/remark-plugin-npm2yarn": "^3.1.1",
+    "docusaurus-lunr-search": "^3.3.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "last 2 versions",
+      "Firefox ESR",
+      "not dead"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=18.0"
+  }
+}
