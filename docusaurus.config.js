@@ -42,7 +42,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl:
-            https://github.com/CodeEZ-Dev/ai-interview-academy.git',
+            'https://github.com/CodeEZ-Dev/ai-interview-academy/tree/main/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           remarkPlugins: [
@@ -55,7 +55,7 @@ const config = {
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/CodeEZ-Dev/ai-interview-academy.git',
+            'https://github.com/CodeEZ-Dev/ai-interview-academy/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -142,7 +142,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/CodeEZ-Dev/ai-interview-academy.git',
+            href: 'https://github.com/CodeEZ-Dev/ai-interview-academy',
             label: 'GitHub',
             position: 'right',
           },
@@ -198,7 +198,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/CodeEZ-Dev/ai-interview-academy.git',
+                href: 'https://github.com/CodeEZ-Dev/ai-interview-academy',
               },
             ],
           },
@@ -228,10 +228,6 @@ const config = {
       },
     }),
 
-  markdown: {
-    mermaid: true,
-  },
-  themes: ['@docusaurus/theme-mermaid'],
 };
 
 export default config;
