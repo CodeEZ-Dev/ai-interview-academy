@@ -195,6 +195,14 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/CodeEZ-Dev/ai-interview-academy',
               },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/muralidharanvenkadesan/',
+              },
+              {
+                label: 'WhatsApp Channel',
+                href: 'https://whatsapp.com/channel/0029Vb8DoBe4Y9lrlilLc10Z',
+              },
             ],
           },
         ],

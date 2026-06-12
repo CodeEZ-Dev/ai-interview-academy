@@ -47,46 +47,46 @@ export default function Home() {
           <div className={styles.container}>
             <h2>📚 What You'll Learn</h2>
             <div className={styles.grid}>
-              <div className={styles.card}>
+              <Link to="/docs/genai" className={styles.card}>
                 <h3>🤖 Generative AI</h3>
                 <p>LLMs, embeddings, and practical applications</p>
-              </div>
-              <div className={styles.card}>
+              </Link>
+              <Link to="/docs/rag" className={styles.card}>
                 <h3>📖 RAG</h3>
                 <p>Retrieval Augmented Generation patterns</p>
-              </div>
-              <div className={styles.card}>
+              </Link>
+              <Link to="/docs/agentic-ai" className={styles.card}>
                 <h3>🧠 Agentic AI</h3>
                 <p>Building autonomous AI agents</p>
-              </div>
-              <div className={styles.card}>
+              </Link>
+              <Link to="/docs/mcp" className={styles.card}>
                 <h3>🔌 MCP</h3>
                 <p>Model Context Protocol</p>
-              </div>
-              <div className={styles.card}>
+              </Link>
+              <Link to="/docs/llmops" className={styles.card}>
                 <h3>⚙️ LLMOps</h3>
                 <p>Operations and lifecycle management</p>
-              </div>
-              <div className={styles.card}>
+              </Link>
+              <Link to="/docs/gcp" className={styles.card}>
                 <h3>☁️ GCP GenAI</h3>
                 <p>Google Cloud AI services</p>
-              </div>
-              <div className={styles.card}>
+              </Link>
+              <Link to="/docs/architecture" className={styles.card}>
                 <h3>🏗️ Architecture</h3>
                 <p>Enterprise patterns</p>
-              </div>
-              <div className={styles.card}>
+              </Link>
+              <Link to="/docs/system-design" className={styles.card}>
                 <h3>🎯 System Design</h3>
                 <p>Scalable distributed systems</p>
-              </div>
-              <div className={styles.card}>
+              </Link>
+              <Link to="/docs/ml-dl" className={styles.card}>
                 <h3>📊 ML/DL</h3>
                 <p>Machine learning fundamentals</p>
-              </div>
-              <div className={styles.card}>
+              </Link>
+              <Link to="/docs/data-engineering" className={styles.card}>
                 <h3>📦 Data Engineering</h3>
                 <p>Pipelines and warehouses</p>
-              </div>
+              </Link>
             </div>
           </div>
         </section>

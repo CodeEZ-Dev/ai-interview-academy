@@ -118,12 +118,27 @@
   padding: 30px;
   transition: all 0.3s ease;
   text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  color: inherit;
+}
+
+[data-theme='dark'] .card {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.08), rgba(168, 85, 247, 0.08));
+  border-color: rgba(99, 102, 241, 0.3);
 }
 
 .card:hover {
   transform: translateY(-5px);
   border-color: #667eea;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.1);
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.15);
+}
+
+[data-theme='dark'] .card:hover {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(168, 85, 247, 0.15));
+  border-color: #a78bfa;
+  box-shadow: 0 10px 30px rgba(167, 139, 250, 0.2);
 }
 
 .card h3 {
@@ -132,10 +147,18 @@
   color: var(--ifm-heading-color);
 }
 
+[data-theme='dark'] .card h3 {
+  color: #f1f5f9;
+}
+
 .card p {
   font-size: 0.95rem;
   color: var(--ifm-text-color-secondary);
   line-height: 1.6;
+}
+
+[data-theme='dark'] .card p {
+  color: #cbd5e1;
 }
 
 /* How It Works */
