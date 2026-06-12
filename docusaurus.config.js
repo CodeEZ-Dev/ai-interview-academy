@@ -101,6 +101,10 @@ const config = {
                 to: '/docs/agentic-ai',
               },
               {
+                label: 'Agents Design Patterns',
+                to: '/docs/agents_design_patterns',
+              },
+              {
                 label: 'MCP',
                 to: '/docs/mcp',
               },
@@ -160,6 +164,10 @@ const config = {
               {
                 label: 'Agentic AI',
                 to: '/docs/agentic-ai',
+              },
+              {
+                label: 'Agents Design Patterns',
+                to: '/docs/agents_design_patterns',
               },
               {
                 label: 'MCP',

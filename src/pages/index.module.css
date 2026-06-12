@@ -125,8 +125,9 @@
 }
 
 [data-theme='dark'] .card {
-  background: linear-gradient(135deg, rgba(99, 102, 241, 0.08), rgba(168, 85, 247, 0.08));
-  border-color: rgba(99, 102, 241, 0.3);
+  background: linear-gradient(135deg, #1e1e2e 0%, #2d1b4e 100%);
+  border: 2px solid rgba(167, 139, 250, 0.4);
+  box-shadow: 0 4px 20px rgba(99, 102, 241, 0.1);
 }
 
 .card:hover {
@@ -136,9 +137,9 @@
 }
 
 [data-theme='dark'] .card:hover {
-  background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(168, 85, 247, 0.15));
-  border-color: #a78bfa;
-  box-shadow: 0 10px 30px rgba(167, 139, 250, 0.2);
+  background: linear-gradient(135deg, #2d1b4e 0%, #3d2561 100%);
+  border-color: #c4b5fd;
+  box-shadow: 0 10px 40px rgba(167, 139, 250, 0.3);
 }
 
 .card h3 {
@@ -148,7 +149,10 @@
 }
 
 [data-theme='dark'] .card h3 {
-  color: #f1f5f9;
+  background: linear-gradient(135deg, #a78bfa, #f472b6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .card p {
@@ -158,7 +162,7 @@
 }
 
 [data-theme='dark'] .card p {
-  color: #cbd5e1;
+  color: #e2e8f0;
 }
 
 /* How It Works */
