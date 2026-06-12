@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
-import { TOPICS, QUESTIONS, DIFFICULTY_COLORS, getTotalQuestionCount, getQuestionsForTopic } from './questions';
+import { TOPICS, QUESTIONS, DIFFICULTY_COLORS, getTotalQuestionCount, getQuestionsForTopic } from './_questions';
 import styles from './index.module.css';
 
 // ─── Difficulty Badge ────────────────────────────────────────────────────────

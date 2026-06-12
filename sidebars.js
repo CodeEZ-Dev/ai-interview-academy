@@ -21,6 +21,10 @@ module.exports = {
     {
       type: 'category',
       label: 'Generative AI',
+      link: {
+        type: 'generated-index',
+        slug: '/genai',
+      },
       collapsed: true,
       items: [
         'genai/what-is-genai',
@@ -33,6 +37,10 @@ module.exports = {
     {
       type: 'category',
       label: 'RAG (Retrieval Augmented Generation)',
+      link: {
+        type: 'generated-index',
+        slug: '/rag',
+      },
       collapsed: true,
       items: [
         'rag/what-is-rag',
@@ -47,6 +55,10 @@ module.exports = {
     {
       type: 'category',
       label: 'Agentic AI',
+      link: {
+        type: 'generated-index',
+        slug: '/agentic-ai',
+      },
       collapsed: true,
       items: [
         'agentic-ai/what-is-agentic-ai',
@@ -60,6 +72,10 @@ module.exports = {
     {
       type: 'category',
       label: 'MCP (Model Context Protocol)',
+      link: {
+        type: 'generated-index',
+        slug: '/mcp',
+      },
       collapsed: true,
       items: [
         'mcp/mcp-fundamentals',
@@ -73,6 +89,10 @@ module.exports = {
     {
       type: 'category',
       label: 'LLMOps',
+      link: {
+        type: 'generated-index',
+        slug: '/llmops',
+      },
       collapsed: true,
       items: [
         'llmops/llmops-lifecycle',
@@ -87,6 +107,10 @@ module.exports = {
     {
       type: 'category',
       label: 'GCP Generative AI',
+      link: {
+        type: 'generated-index',
+        slug: '/gcp',
+      },
       collapsed: true,
       items: [
         'gcp/vertex-ai-overview',
@@ -101,6 +125,10 @@ module.exports = {
     {
       type: 'category',
       label: 'Enterprise Architecture',
+      link: {
+        type: 'generated-index',
+        slug: '/architecture',
+      },
       collapsed: true,
       items: [
         'architecture/microservices-genai',
@@ -114,6 +142,10 @@ module.exports = {
     {
       type: 'category',
       label: 'System Design',
+      link: {
+        type: 'generated-index',
+        slug: '/system-design',
+      },
       collapsed: true,
       items: [
         'system-design/design-principles',
@@ -127,6 +159,10 @@ module.exports = {
     {
       type: 'category',
       label: 'Machine Learning & Deep Learning',
+      link: {
+        type: 'generated-index',
+        slug: '/ml-dl',
+      },
       collapsed: true,
       items: [
         'ml-dl/ml-fundamentals',
@@ -141,6 +177,10 @@ module.exports = {
     {
       type: 'category',
       label: 'Data Engineering',
+      link: {
+        type: 'generated-index',
+        slug: '/data-engineering',
+      },
       collapsed: true,
       items: [
         'data-engineering/data-pipeline',
@@ -154,6 +194,10 @@ module.exports = {
     {
       type: 'category',
       label: 'Daily Challenges',
+      link: {
+        type: 'generated-index',
+        slug: '/daily-challenges',
+      },
       collapsed: true,
       items: [
         'daily-challenges/week-1',
