@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'AI Interview Academy',
   tagline: 'Master Generative AI, RAG, Agentic AI, MCP, LLMOps, Cloud AI, and Enterprise Architecture Interviews',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
 
   // Set the production url of your site here
   url: 'https://codeez-dev.github.io',
@@ -64,17 +64,11 @@ const config = {
           trackingID: 'G-XXXXXXXX', // Replace with your Google Analytics ID
           anonymizeIP: true,
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+        },
       }),
-    ],
-  ],
-
-  plugins: [
-    [
-      require.resolve('@docusaurus/plugin-sitemap'),
-      {
-        changefreq: 'weekly',
-        priority: 0.5,
-      },
     ],
   ],
 
