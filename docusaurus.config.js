@@ -140,6 +140,7 @@ const config = {
               },
             ],
           },
+          {to: '/interview-quiz', label: '🎯 Practice Quiz', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/CodeEZ-Dev/ai-interview-academy',

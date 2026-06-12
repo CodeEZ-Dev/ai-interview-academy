@@ -67,6 +67,25 @@
   color: #667eea;
 }
 
+.buttonGhost {
+  padding: 15px 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.8);
+  background-color: transparent;
+}
+
+.buttonGhost:hover {
+  border-color: white;
+  color: white;
+  background: rgba(255,255,255,0.1);
+}
+
 /* Features Section */
 .features {
   padding: 80px 20px;
@@ -218,6 +237,170 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+/* Quiz CTA Section */
+.quizCta {
+  padding: 80px 20px;
+  background: #0d0e1a;
+  position: relative;
+  overflow: hidden;
+}
+
+.quizCta::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(99, 102, 241, 0.12) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 50%, rgba(168, 85, 247, 0.10) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.quizCtaInner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.quizCtaText {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.quizCtaBadge {
+  display: inline-flex;
+  align-self: flex-start;
+  background: linear-gradient(135deg, rgba(99,102,241,0.2), rgba(168,85,247,0.2));
+  border: 1px solid rgba(168, 85, 247, 0.35);
+  color: #c4b5fd;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  padding: 5px 14px;
+  border-radius: 100px;
+  text-transform: uppercase;
+}
+
+.quizCtaTitle {
+  font-size: 2.4rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #a78bfa, #f472b6 60%, #60a5fa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.quizCtaDesc {
+  font-size: 1rem;
+  color: #94a3b8;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.quizCtaStats {
+  display: flex;
+  gap: 28px;
+}
+
+.quizCtaStat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.quizCtaStatNum {
+  font-size: 2rem;
+  font-weight: 900;
+  background: linear-gradient(135deg, #a78bfa, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+}
+
+.quizCtaStatLabel {
+  font-size: 0.78rem;
+  color: #64748b;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.quizCtaBtn {
+  display: inline-flex;
+  align-self: flex-start;
+  padding: 14px 36px;
+  background: linear-gradient(135deg, #6366f1, #a855f7);
+  border-radius: 12px;
+  color: white !important;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.quizCtaBtn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px rgba(99, 102, 241, 0.45);
+  text-decoration: none;
+  color: white;
+}
+
+/* Quiz preview card */
+.quizCtaVisual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quizCard {
+  background: linear-gradient(145deg, rgba(30,32,60,0.95), rgba(20,22,45,0.98));
+  border: 1px solid rgba(99, 102, 241, 0.35);
+  border-radius: 24px;
+  padding: 36px 32px;
+  max-width: 340px;
+  width: 100%;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  animation: floatCard 6s ease-in-out infinite;
+}
+
+@keyframes floatCard {
+  0%, 100% { transform: translateY(0px) rotate(-1deg); }
+  50%       { transform: translateY(-12px) rotate(1deg); }
+}
+
+.quizCardLabel {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #64748b;
+}
+
+.quizCardQ {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #f1f5f9;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.quizCardHint {
+  font-size: 0.8rem;
+  color: #475569;
+  text-align: center;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .heroTitle {
@@ -230,6 +413,24 @@
 
   .buttons {
     flex-direction: column;
+  }
+
+  .quizCtaInner {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .quizCtaTitle {
+    font-size: 1.8rem;
+  }
+
+  .quizCtaVisual {
+    order: -1;
+  }
+
+  .quizCard {
+    max-width: 100%;
+    animation: none;
   }
 
   .buttonPrimary,

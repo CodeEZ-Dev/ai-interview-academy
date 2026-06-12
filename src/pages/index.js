@@ -28,9 +28,15 @@ export default function Home() {
               </Link>
               <Link
                 className={styles.buttonSecondary}
+                to="/interview-quiz"
+              >
+                🎯 Practice Quiz
+              </Link>
+              <Link
+                className={styles.buttonGhost}
                 to="https://github.com/CodeEZ-Dev/ai-interview-academy.git"
               >
-                View on GitHub
+                GitHub ↗
               </Link>
             </div>
           </div>
@@ -80,6 +86,46 @@ export default function Home() {
               <div className={styles.card}>
                 <h3>📦 Data Engineering</h3>
                 <p>Pipelines and warehouses</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Quiz CTA Section */}
+        <section className={styles.quizCta}>
+          <div className={styles.container}>
+            <div className={styles.quizCtaInner}>
+              <div className={styles.quizCtaText}>
+                <div className={styles.quizCtaBadge}>🎯 Interactive Practice</div>
+                <h2 className={styles.quizCtaTitle}>Test Your Knowledge</h2>
+                <p className={styles.quizCtaDesc}>
+                  Flip through 50+ real interview questions across 10 AI topics.
+                  Self-assess, track your score, and build confidence for your next interview.
+                </p>
+                <div className={styles.quizCtaStats}>
+                  <div className={styles.quizCtaStat}>
+                    <span className={styles.quizCtaStatNum}>50+</span>
+                    <span className={styles.quizCtaStatLabel}>Questions</span>
+                  </div>
+                  <div className={styles.quizCtaStat}>
+                    <span className={styles.quizCtaStatNum}>10</span>
+                    <span className={styles.quizCtaStatLabel}>Topics</span>
+                  </div>
+                  <div className={styles.quizCtaStat}>
+                    <span className={styles.quizCtaStatNum}>3</span>
+                    <span className={styles.quizCtaStatLabel}>Difficulty Levels</span>
+                  </div>
+                </div>
+                <Link className={styles.quizCtaBtn} to="/interview-quiz">
+                  Launch Quiz →
+                </Link>
+              </div>
+              <div className={styles.quizCtaVisual} aria-hidden="true">
+                <div className={styles.quizCard}>
+                  <div className={styles.quizCardLabel}>❓ Interview Question</div>
+                  <p className={styles.quizCardQ}>What is RAG and how does it reduce hallucinations?</p>
+                  <div className={styles.quizCardHint}>Click to reveal answer 🔄</div>
+                </div>
               </div>
             </div>
           </div>

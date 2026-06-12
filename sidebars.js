@@ -12,12 +12,14 @@
 module.exports = {
   docsSidebar: [
     {
+      type: 'category',
       label: 'Getting Started',
       items: [
         'intro',
       ],
     },
     {
+      type: 'category',
       label: 'Generative AI',
       collapsed: true,
       items: [
@@ -29,6 +31,7 @@ module.exports = {
       ],
     },
     {
+      type: 'category',
       label: 'RAG (Retrieval Augmented Generation)',
       collapsed: true,
       items: [
@@ -42,6 +45,7 @@ module.exports = {
       ],
     },
     {
+      type: 'category',
       label: 'Agentic AI',
       collapsed: true,
       items: [
@@ -54,6 +58,7 @@ module.exports = {
       ],
     },
     {
+      type: 'category',
       label: 'MCP (Model Context Protocol)',
       collapsed: true,
       items: [
@@ -66,6 +71,7 @@ module.exports = {
       ],
     },
     {
+      type: 'category',
       label: 'LLMOps',
       collapsed: true,
       items: [
@@ -79,6 +85,7 @@ module.exports = {
       ],
     },
     {
+      type: 'category',
       label: 'GCP Generative AI',
       collapsed: true,
       items: [
@@ -92,6 +99,7 @@ module.exports = {
       ],
     },
     {
+      type: 'category',
       label: 'Enterprise Architecture',
       collapsed: true,
       items: [
@@ -104,6 +112,7 @@ module.exports = {
       ],
     },
     {
+      type: 'category',
       label: 'System Design',
       collapsed: true,
       items: [
@@ -116,6 +125,7 @@ module.exports = {
       ],
     },
     {
+      type: 'category',
       label: 'Machine Learning & Deep Learning',
       collapsed: true,
       items: [
@@ -129,6 +139,7 @@ module.exports = {
       ],
     },
     {
+      type: 'category',
       label: 'Data Engineering',
       collapsed: true,
       items: [
@@ -141,6 +152,7 @@ module.exports = {
       ],
     },
     {
+      type: 'category',
       label: 'Daily Challenges',
       collapsed: true,
       items: [
